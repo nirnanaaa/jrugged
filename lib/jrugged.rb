@@ -17,7 +17,7 @@ module JRugged
     include_package "org.eclipse.jgit"
 
     # Exceptions thrown by API commands.
-    module Errors
+    module Error
       include_package "org.eclipse.jgit.api.errors"
     end
 
