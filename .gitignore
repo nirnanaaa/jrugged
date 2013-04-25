@@ -1,0 +1,10 @@
+*.bundle
+/pkg/
+.yardoc
+/tmp/
+
+#bare
+/spec/fixtures/test.git
+
+#normal
+/spec/fixtures/test
