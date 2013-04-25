@@ -31,3 +31,5 @@ module JRugged
   end
 
 end
+
+require 'jrugged/error'
