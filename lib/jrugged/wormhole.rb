@@ -8,8 +8,8 @@ module JRugged
       end
     end
 
-    def to_jfile(file)
-      java.io.File.new(file)
+    def to_jfile(object)
+      java.io.File.new(object)
     end
 
     def args_to_ruby(args)

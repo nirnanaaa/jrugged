@@ -118,6 +118,7 @@ end
 
 require 'jrugged/version'
 require 'jrugged/wormhole'
+require 'jrugged/string'
 JRugged.extend JRugged::To
 
 require 'jrugged/error'

@@ -11,7 +11,7 @@ module JRugged
       
       # Creates a new repository on specified location
       def create(location, bare=true)
-        init = JGit::Api::InitCommand.new.setBare(bare).setDirectory(location.to_jfile)
+        JGit::Api::InitCommand.new.setBare(bare).setDirectory(location.to_jfile)
       end
 
     end
