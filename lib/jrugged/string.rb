@@ -1,7 +1,7 @@
 class String
   
-  def to_jfile(object)
-    java.io.File.new(object) 
+  def to_jfile
+    java.io.File.new(self) 
   end
 
 end
