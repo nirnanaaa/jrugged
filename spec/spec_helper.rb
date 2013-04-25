@@ -1,7 +1,7 @@
 require 'jrugged'
 
 module JgiR
-  Error = JRugged::JGit::Errors
+  Error = JRugged::JGit::Error
 end
 
 RSpec.configure do |c|
