@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.email = "mosny@zyg.li"
   s.summary = "Git bindings for Java"
   s.homepage = "https://github.com/nirnanaaa/jrugged"
-  s.require_paths = ["lib"]
+  s.require_paths = ["lib", "jar"]
   s.files = `git ls-files`.split("\n").sort
-
 
   s.add_development_dependency "rspec", "~> 2.13.0"
   s.add_development_dependency "mocha", "~> 0.13.3"
