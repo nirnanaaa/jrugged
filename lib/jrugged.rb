@@ -33,3 +33,16 @@ module JRugged
 end
 
 require 'jrugged/error'
+
+
+# Git related things
+require 'jrugged/index'
+require 'jrugged/object'
+require 'jrugged/commit'
+require 'jrugged/repository'
+require 'jrugged/reference'
+require 'jrugged/walker'
+require 'jrugged/tree'
+require 'jrugged/tag'
+require 'jrugged/branch'
+require 'jrugged/remote'
