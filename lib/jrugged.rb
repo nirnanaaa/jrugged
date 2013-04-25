@@ -116,6 +116,10 @@ module JRugged
 
 end
 
+require 'jrugged/version'
+require 'jrugged/wormhole'
+JRugged.extend JRugged::To
+
 require 'jrugged/error'
 
 

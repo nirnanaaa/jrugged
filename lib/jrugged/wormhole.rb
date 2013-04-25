@@ -13,3 +13,6 @@ module JRugged
     end
 
     private
+
+  end
+end
